@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('valContent/Valorant-Font.ttf') format('truetype');
+    /* Additional font properties */
+  }
+
+  body{
+    font-family: 'CustomFont', Arial, sans-serif;
+  }
+
+  :root{
+     --primary-red: #FF4655;
+  }
+
+  /* NAV */
+
+  nav{
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     
+
+  }
+
+  ul{
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+ a{
+    font-family: 'CustomFont', sans-serif;
+    text-decoration: none;
+    padding: 10px 35px;
+    color: white;
+    
+  }
+
+  a:hover{
+    border: 4px solid white;
+    border-radius: 20px;
+    transition: 0.5s ease-out;
+  }
+
+  .main-nav-bkgd{
+
+  }
+
+  /* IMAGES/Vids */ 
+
+  .logo1{
+     width: 100px;
+     padding: 0px 10px;
+  }
+
+  .logo2{
+    width: 100px;
+  }
+
+  .jett-login-vid{
+    width: 250px;
+  }
+
+  .main-vid-bkgd-case{
+      z-index: 1;
+  }
+
+  .main-vid-bkgd{
+    left: 50%;
+    top: 15%;
+    width: 100%;
+   
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .sec1-bkgd-case{
+    z-index: -1;
+  }
