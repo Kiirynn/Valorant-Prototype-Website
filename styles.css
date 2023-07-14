@@ -5,11 +5,13 @@
   }
 
   body{
-    font-family: 'CustomFont', Arial, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: white;
   }
 
   :root{
      --primary-red: #FF4655;
+     --dull-white: #D1C9C9;
   }
 
   /* NAV */
@@ -25,6 +27,7 @@
      justify-content: center;
      align-items: center;
      
+     
 
   }
 
@@ -35,6 +38,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin: 0px 25px;
   }
 
  a{
@@ -55,7 +59,7 @@
 
   }
 
-  /* IMAGES/Vids */ 
+  /* MAIN */ 
 
   .logo1{
      width: 100px;
@@ -66,23 +70,145 @@
     width: 100px;
   }
 
-  .jett-login-vid{
-    width: 250px;
+  .header-main{
+    position: absolute;
+    margin-left: 100px;
+    top: 200px;
+    width: 800px;
+    z-index: 1;
   }
 
   .main-vid-bkgd-case{
-      z-index: 1;
+    width: 100%;
   }
 
   .main-vid-bkgd{
+    top: -200px;
     left: 50%;
-    top: 15%;
+    padding:0;
+    margin: 0;
     width: 100%;
-   
-    position: absolute;
-    transform: translate(-50%, -50%);
+    position: relative;
+    
+    transform: translate(-50%, -15%);
   }
 
+
   .sec1-bkgd-case{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    
+    padding: 0;
+    margin: 0;
+  }
+
+  .sec1-bkgd{
+    width: 100%;
     z-index: -1;
+
+  }
+
+
+
+  .img-div-main{
+    position: absolute;
+    display: flex;
+    
+    top: 420px;
+    left: 70px;
+    box-shadow: 4px 4px 7px 4px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+  }
+
+  .main-img{
+     width: 500px;
+     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+  }
+
+  .main-img-diff{
+    width: 470px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+  }
+
+  .f1, .f2, .f3{
+    
+    
+  }
+
+  .f-text{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+  .info-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    padding: 40px;
+  }
+
+  .last-main{
+    position: absolute;
+    display: flex;
+    top: 775px;
+    margin: 100px;
+    box-shadow: 4px 4px 7px 4px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    
+    padding: 20px;
+
+  }
+
+  .char-case-main{
+    position: absolute;
+    top: -150px;
+    left: 1450px;
+  }
+
+  .char1{
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+     width: 1200px;
+  }
+
+  .jett-login-vid{
+    width: 250px;
+    
+  }
+
+  .btnPad{
+    border: 2px solid var(--dull-white);
+    padding: 5px;
+    width: 136px;
+    border-radius: 0px 0px 0px 15px;
+    
+  }
+
+  .learnBtn{
+    border-radius: 0px 0px 0px 15px;
+    cursor: pointer;
+  }
+  
+
+
+  .playBtn{
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+
+  .btn{
+    background-color: var(--primary-red);
+    padding: 15px;
+    color: white;
+    
+  }
+
+  .btn:hover{
+
+    background-image: linear-gradient(to right, #ff5e62, #ff9966);
+
   }
