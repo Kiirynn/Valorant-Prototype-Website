@@ -4,10 +4,25 @@
     /* Additional font properties */
   }
 
+  *{
+    box-sizing: border-box;
+  }
+
   body{
     font-family: "Segoe UI", Arial, sans-serif;
     color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    /* overflow-y: visible; */
+    height: 100vh;
+    
   }
+
 
   :root{
      --primary-red: #FF4655;
@@ -18,6 +33,7 @@
 
   nav{
      position: fixed;
+     padding: 20px 0px 20px 0px;
      z-index: 1;
      top: 0;
      left: 0;
@@ -26,6 +42,9 @@
      flex-direction: row;
      justify-content: center;
      align-items: center;
+     box-shadow: 4px 4px 7px 4px rgba(0, 0, 0, 0.8);
+     backdrop-filter: blur(8px);
+     
      
      
 
@@ -55,6 +74,14 @@
     transition: 0.5s ease-out;
   }
 
+  .knife{
+    width: 75px;
+    position: absolute;
+    top: 1020%;
+    right: 1%;
+    
+  }
+
   .main-nav-bkgd{
 
   }
@@ -74,7 +101,7 @@
   .search-bar{
     background-color: transparent;
     color: white;
-    padding: 10px;;
+    padding: 10px;
     border-radius: 10px;
   }
 
@@ -82,26 +109,38 @@
     color: white;
   }
 
- 
+  #arrowBtn{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    
+  }
 
   /* MAIN */ 
 
   .logo1{
-     width: 100px;
-     padding: 0px 10px;
+     width: 150px;
+     padding: 0px 10px 0px 40px;
   }
 
   .logo2{
-    width: 100px;
+    width: 75px;
   }
 
   .header-main{
     position: absolute;
-    margin-left: 100px;
-    top: 200px;
+    margin-left: 4%;
+    top: 13%;
     width: 800px;
     z-index: 1;
   }
+
+  .section{
+    scroll-snap-align: start;
+  }
+
+
+
 
   .main-vid-bkgd-case{
     width: 100%;
@@ -121,16 +160,14 @@
 
   .sec1-bkgd-case{
     position: absolute;
-    top: 400px;
+    top: 30%;
     width: 100%;
-    
     padding: 0;
     margin: 0;
   }
 
   .sec1-bkgd{
     width: 100%;
-    z-index: -1;
     box-shadow: 4px 4px 7px 4px rgba(0, 0, 0, 0.8);
 
   }
@@ -140,9 +177,8 @@
   .img-div-main{
     position: absolute;
     display: flex;
-    
-    top: 420px;
-    left: 70px;
+    top: 32%;
+    left: 3%;
     box-shadow: 4px 4px 7px 4px rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(8px);
     padding: 20px;
@@ -151,29 +187,38 @@
   .main-img{
      width: 500px;
      box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+     border: 2px solid white;
      
   }
 
   .main-img-diff{
     width: 470px;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
-    z-index: -1;
+    border: 2px solid white;
   }
 
   .we-are-text{
     position: absolute;
     width: 800px;
-    top: 350px;
-    left: 40px;
+    top: 28%;
+    left: 3%;
     
    
+  }
+
+  .the-latest{
+    position: absolute;
+    width: 500px;
+    top: 33%;
+    left: 9%;
+    z-index: 1;
   }
 
   .valorant-text{
     position: absolute;
     width: 1100px;
-    top: 750px;
-    left: 800px;
+    top: 57%;
+    left: 30%;
     
   }
 
@@ -202,8 +247,8 @@
   .last-main{
     position: absolute;
     display: flex;
-    top: 775px;
-    left: -30px;
+    top: 60%;
+    left: -1%;
     margin: 100px;
     box-shadow: 4px 4px 7px 4px rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(8px);
@@ -258,4 +303,30 @@
 
     background-image: linear-gradient(to right, #ff5e62, #ff9966);
 
+  }
+
+  /* PAGE 2 */
+
+  .page2{
+    
+  }
+
+  .page2-bkgd-case{
+    
+   
+    
+  }
+
+  .page2-bkgd{
+    width: 100%;
+    position: absolute;
+    
+    
+  }
+
+  .smoke-overlay{
+    position: absolute;
+    height: 110%;
+    z-index: 2;
+    opacity: 0.3;
   }
