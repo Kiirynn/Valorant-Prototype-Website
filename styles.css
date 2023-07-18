@@ -173,7 +173,6 @@
   }
 
 
-
   .img-div-main{
     position: absolute;
     display: flex;
@@ -268,6 +267,7 @@
 
   .jett-login-vid{
     width: 250px;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
     
   }
 
@@ -311,11 +311,6 @@
     
   }
 
-  .page2-bkgd-case{
-   
-    
-  }
-
   .page2-last{
      position: relative;
      top: 930px;
@@ -345,3 +340,97 @@
     width: 100%;
 
   }
+  
+  /* Page 3 */
+
+  .page3{
+
+  }
+
+  .page3-bkgd{
+    position: absolute;
+    top: 219%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+  }
+
+  .page3-bkgd-case{
+
+  }
+  
+  .p3-left-div{
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     z-index: 2;
+     top: 225%;
+  }
+
+  .p3-map1{
+    width: 700px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+    border: 2px solid white;
+   
+  }
+
+  .p3-top-div, .p3-bottom-div{
+      padding: 40px;
+      margin-left: 80px;
+  }
+
+  .p3-right-div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top: 238%;
+    width: 1200px;
+    margin-left: 35%;
+  }
+
+  .p3-large-vid{
+    width: 1200px;
+    padding: 40px;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+    
+  }
+
+  .p3-vidText-div{
+    width: 900px;
+  }
+
+  .char2{
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+    width: 800px;
+    position: absolute;
+    top: -20%;
+    left: 75%;
+    z-index: 2;
+   
+  }
+
+  .new-text{
+    position: absolute;
+    width: 600px;
+    top: 222%;
+    left: 10%;
+  }
+
+  .content-text{
+    position: absolute;
+    width: 1000px;
+    top: 235%;
+    left: 45%;
+  }
+
+
+
+
+
+
