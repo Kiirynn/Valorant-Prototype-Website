@@ -8,13 +8,16 @@
     box-sizing: border-box;
   }
 
+  h1{
+     font-size: 3rem;
+  }
+
   body{
     font-family: "Segoe UI", Arial, sans-serif;
     color: white;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -366,8 +369,7 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     z-index: 2;
-     top: 225%;
+     top: 222%;
   }
 
   .p3-map1{
@@ -388,7 +390,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+   
     top: 238%;
     width: 1200px;
     margin-left: 35%;
@@ -397,7 +399,7 @@
   .p3-large-vid{
     width: 1200px;
     padding: 40px;
-    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+    filter: drop-shadow(5px 0px 20px  rgba(255, 255, 255, 1));
     
   }
 
@@ -411,7 +413,7 @@
     position: absolute;
     top: -20%;
     left: 75%;
-    z-index: 2;
+    
    
   }
 
@@ -428,6 +430,70 @@
     top: 235%;
     left: 45%;
   }
+
+  /* PAGE 4 */
+  
+  .p4-bkgd{
+    position: absolute;
+    width: 100%;
+    top: 315%;
+    
+  }
+
+  .white-val-logo{
+    width: 50px;
+    transform: rotate(180deg);
+    
+  }
+
+  .house{
+    width: 700px;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+    transform: scaleX(-1);
+
+  }
+
+  .dock{
+    width: 700px;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+  }
+
+  .p4-top-div{
+    position: absolute;
+    top: 320%;
+    display: flex;
+    padding: 40px;
+  }
+
+  .p4-bottom-div{
+    position: absolute;
+    top: 385%;
+    display: flex;
+    padding: 40px;
+  }
+
+  .col-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;;
+   
+  }
+
+  .p4-btn-div{
+    position: absolute;
+    top: 370%;
+    right: -1%;
+  }
+
+  .top-btn{
+    border-radius: 0px 0px 0px 15px;
+    cursor: pointer;
+
+  }
+
+
 
 
 
