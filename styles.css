@@ -12,6 +12,10 @@
      font-size: 3rem;
   }
 
+  h2{
+    padding: 20px;
+  }
+
   body{
     font-family: "Segoe UI", Arial, sans-serif;
     color: white;
@@ -119,6 +123,69 @@
     
   }
 
+  /* FOOTER */
+
+  footer{
+    background-color: #D1C9C9;
+    top: 424%;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .terms{
+    display: flex;
+    padding: 20px;
+  }
+
+  .copyright{
+
+  }
+
+  .fLogos{
+
+  }
+
+  .media-icons{
+    margin-bottom: 20px;
+  }
+
+  .insta{
+   width: 50px;
+  }
+
+  .youtube{
+    width: 60px;
+  }
+
+  .fbook{
+    width: 40px;
+  }
+
+  .i{
+    padding: 10px;
+  }
+
+  .rating{
+    width: 200px;
+  }
+
+  .media-icons{
+
+  }
+
+  .f-val{
+    width: 200px;
+  }
+
+  .f-riot{
+     width: 200px;
+  }
+
   /* MAIN */ 
 
   .logo1{
@@ -135,7 +202,7 @@
     margin-left: 4%;
     top: 13%;
     width: 800px;
-    z-index: 1;
+    
   }
 
   .section{
@@ -440,8 +507,24 @@
     
   }
 
+  .p4-valorant-white{
+    position: absolute;
+    width: 1500px;
+    top: 330%;
+    left: 4%;
+    opacity: 0.5;
+  }
+
+  .p4-we-are-white{
+    position: absolute;
+    width: 1350px;
+    top: 395%;
+    left: 50%;
+    opacity: 0.5;
+  }
+
   .white-val-logo{
-    width: 50px;
+    width: 70px;
     transform: rotate(180deg);
     
   }
@@ -454,7 +537,7 @@
   }
 
   .dock{
-    width: 700px;
+    width: 750px;
     filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
   }
 
@@ -463,11 +546,12 @@
     top: 320%;
     display: flex;
     padding: 40px;
+  
   }
 
   .p4-bottom-div{
     position: absolute;
-    top: 385%;
+    top: 380%;
     display: flex;
     padding: 40px;
   }
@@ -490,6 +574,14 @@
   .top-btn{
     border-radius: 0px 0px 0px 15px;
     cursor: pointer;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+    
 
   }
 
