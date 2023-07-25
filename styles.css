@@ -81,6 +81,8 @@
     transition: 0.5s ease-out;
   }
 
+
+
   .knife{
     width: 75px;
     position: absolute;
@@ -186,7 +188,7 @@
      width: 200px;
   }
 
-  /* MAIN */ 
+  /* HOME */ 
 
   .logo1{
      width: 150px;
@@ -375,7 +377,7 @@
 
   }
 
-  /* PAGE 2 */
+  /* HOME PAGE 2 */
 
   .page2{
     
@@ -411,7 +413,7 @@
 
   }
   
-  /* Page 3 */
+  /* HOME PAGE 3 */
 
   .page3{
 
@@ -498,7 +500,7 @@
     left: 45%;
   }
 
-  /* PAGE 4 */
+  /* HOME PAGE 4 */
   
   .p4-bkgd{
     position: absolute;
@@ -580,14 +582,124 @@
     flex-direction: column;
     justify-content: center;
   
-    
-    
-
   }
 
 
+  /* NEWS P1 */ 
 
 
+
+.news1-bkgd{
+  
+  width: 100%;
+}
+
+.news1-valorant-white{
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  opacity: 0.7;
+
+}
+
+.news1-we-are-white{
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  opacity: 0.7;
+}
+
+.news1-vid-div{
+  position: absolute;
+  top: 24%;
+  left: 38%;
+
+}
+
+.patches{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.now{
+  position: absolute;
+  top: 22%;
+  left: 70%;
+  font-size: 2em;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+
+.news-header{
+  position: absolute;
+  top: 10%;
+  left: 27%;
+  font-size: 6em;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+
+.viper-des{
+  width: 600px;
+}
+
+
+.viper-intro{
+  width: 600px;
+  border: 2px solid white;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+
+#d-arrow{
+  position: absolute;
+  top: 70%;
+  left: 15%;
+  font-size: 100px;
+}
+
+
+  /* NEWS P2 */ 
+
+
+  .newsp2-main{
+    position: absolute;
+    top: 125%;
+
+  }
+
+  .newsp2-header{
+    position: absolute;
+    top: -20%;
+    left: 100%;
+    font-size: 5em;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+  }
+  
+  .newsp2-info{
+    padding: 60px;
+    width: 800px;
+  }
+
+  .p2-content{
+    display: flex;
+    padding: 80px;
+  }
+
+  .newsp2-img1, .newsp2-img2 {
+    width: 700px;
+    border: 2px solid white;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+  }
+
+  #side-arrow{
+    padding: 30px;
+    font-size: 40px;
+  }
+
+  #d-arrowp2{
+    position: absolute;
+    top: 60%;
+    left: 120%;
+    font-size: 100px;
+  }
 
 
 
