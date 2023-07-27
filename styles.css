@@ -718,7 +718,7 @@
 /* Media p1 */ 
 
 .media-bkgd-p1{
-  width: 100%;
+  width: 122%;
 }
 
 .mediaH1{
@@ -739,9 +739,9 @@
  
   position: absolute;
   display: flex;
-  top: 45%;
+  top: 62.5%;
   backdrop-filter: blur(8px);
-  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+  box-shadow: 4px 4px 7px 4px rgba(0, 0, 0, 0.8);
   width: 100%;
 }
 
@@ -751,7 +751,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin-left: 400px;;
+   margin-left: 400px;
    
    
 
@@ -795,5 +795,72 @@
 }
 
 .small-val-logo{
-  width: 80px;
+  width: 200px;
+}
+
+
+/* Media p2 */
+
+.media-p2-bkgd{
+  width: 100%;
+}
+
+.mediap2-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 5%;
+  top: 110%
+}
+
+.class1, .ability-info, .abil-icons  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  padding: 100px;
+  
+
+}
+
+.class1{
+  margin-bottom: 35%;
+  
+}
+
+.ability-info{
+  margin-top: 5%;
+}
+
+.we-are-media{
+  position: absolute;
+  top: 170%;
+  left: 6%;
+  opacity: 0.7;
+}
+
+.yoru-header{
+  position: absolute;
+  top: 100%;
+  left: 6%;
+  font-size: 4rem;
+}
+
+.yoru{
+  width: 800px;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+
+.abil{
+  width: 100px;
+  margin: 50px;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+
+#media-arrow{
+  position: absolute;
+  top: 195%;
+  left: 45%;
+  font-size: 10rem;
 }
