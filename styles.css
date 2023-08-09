@@ -8,6 +8,8 @@
     box-sizing: border-box;
   }
 
+  /* FONTS */
+
   h1{
      font-size: 3rem;
   }
@@ -29,19 +31,43 @@
     font-size: 1.3rem;
   }
 
+  .paras{
+    font-size: 1rem;
+  }
+
+  /* Main -------------------------------------------*/
+
   body{
     font-family: "Segoe UI", Arial, sans-serif;
     color: white;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+
+    overflow: hidden;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    /* overflow-y: visible; */
-    height: 100vh;
+    
     
   }
+
+
+  section{
+    scroll-snap-align: start;
+    height: 100vh;
+  }
+
+
+  .fade-in {
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    
+}
+
+.fade-in.appear{
+    opacity: 1;
+   
+}
 
   .centered-column{
     display: flex;
@@ -89,6 +115,8 @@
 
   }
 
+ 
+
   ul{
     flex-grow: 1;
     list-style: none;
@@ -111,6 +139,12 @@
     border: 4px solid white;
     border-radius: 20px;
     transition: 0.5s ease-out;
+  }
+
+  .nav-link-active{
+    border: 4px solid white;
+    border-radius: 20px;
+
   }
 
 
@@ -234,15 +268,13 @@
     
   }
 
-  .section{
-    scroll-snap-align: start;
+  .page1{
+    
   }
-
-
-
 
   .main-vid-bkgd-case{
     width: 100%;
+    
   }
 
   .main-vid-bkgd{
@@ -346,6 +378,7 @@
     margin: 100px;
     backdrop-filter: blur(8px);
     padding: 20px;
+    height: 400px;
   }
 
   .char-case-main{
@@ -440,7 +473,7 @@
   /* HOME PAGE 3 -------------------------------------------------------- */
 
   .page3{
-
+    
   }
 
   .page3-bkgd{
@@ -513,6 +546,10 @@
   }
 
   /* HOME PAGE 4 -------------------------------------------------------- */
+
+  .page4{
+    
+  }
   
   .p4-bkgd{
     position: absolute;
